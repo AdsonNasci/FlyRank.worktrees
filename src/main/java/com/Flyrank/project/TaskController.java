@@ -65,7 +65,7 @@ public class TaskController {
           @ApiResponse(responseCode = "404", description = "Task not found")
     })
     @PutMapping("/updateTask/{id}")
-    public ResponseEntity<?> updateTask(@NotNull  @PathVariable Long id, @NotNull @RequestBody TaskDTO taskDTO) {
+    public ResponseEntity<?> updateTask(@NotNull  @PathVariable Long id, @RequestBody TaskDTO taskDTO) {
         if(service.getTaskById(id) != null){
             TaskDTO updatedTask = service.updateTask(id, taskDTO);
             return ResponseEntity.ok(updatedTask);
