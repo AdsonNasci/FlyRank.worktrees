@@ -106,10 +106,10 @@ The application uses Auth0 for authentication. You will need to set up an Auth0 
 
 ## Gitflow Workflow:
 1. **Fork the repository**: Click on the "Fork" button at the top right corner of the repository page to create a copy of the repository under your GitHub account.
-2. **Clone the forked repository**: Use the following command to clone the forked repository to your local machine:
-   ```
-   git clone https://github.com/your-username/FlyRank.worktrees.git
-   ```
+   2. **Clone the forked repository**: Use the following command to clone the forked repository to your local machine:
+      ```
+      git clone https://github.com/your-username/FlyRank.worktrees.git
+      ```
    
 
 
